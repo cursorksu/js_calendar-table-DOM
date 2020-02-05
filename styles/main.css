@@ -1,0 +1,77 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+p {
+  margin: 0; }
+
+a,
+button {
+  cursor: pointer; }
+
+:focus,
+:hover {
+  outline: none; }
+
+body {
+  background: #eee;
+  font-size: 20px; }
+
+section {
+  margin: 30px; }
+
+table {
+  border-collapse: collapse;
+  color: #118488;
+  background-color: white; }
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-right: 1px solid #118488;
+  border-top: 1px solid #118488; }
+
+td,
+th {
+  border-bottom: 1px solid #118488;
+  border-left: 1px solid #118488;
+  padding: 10px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+th {
+  font-weight: bold;
+  background-color: #fd5c63;
+  color: #fff;
+  border-bottom: none; }
+
+/*# sourceMappingURL=main.css.map */
