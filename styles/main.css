@@ -1,39 +1,5 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 body {
-  margin: 0; }
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-p {
-  margin: 0; }
-
-a,
-button {
-  cursor: pointer; }
-
-:focus,
-:hover {
-  outline: none; }
-
-body {
-  background: #eee;
+  background: #e2e2e2;
   font-size: 20px; }
 
 section {
@@ -54,7 +20,6 @@ td,
 th {
   border-bottom: 1px solid #118488;
   border-left: 1px solid #118488;
-  padding: 10px;
   text-align: center;
   width: 70px;
   height: 70px;
